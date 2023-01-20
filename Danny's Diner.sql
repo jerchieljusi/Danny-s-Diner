@@ -1,6 +1,7 @@
 -- In these sets of queries, you can see that the JOIN functions were heavily used as we are dealing with multiple data sets to find the given answer.
 -- Subqueries were also heavily used since we needed to perform a task before perform the final query. The use of subquery is complex however is very useful when you want to isolate parts. 
 -- Tip when writing the subquery, write down the inside query first (inside the parenthesis) since this is going to be performed first. Then create your outer query (outside of the parenthesis) based on the results of the first query. 
+
 -- QUESTION #1: What is the total amount each customer spent at the restaurant?
 SELECT
 	s.customer_id, 
